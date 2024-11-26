@@ -1,0 +1,21 @@
+Entrada:
+  Leia a formula e escolha um numero pra fazer a resolução
+  O primeiro algoritmo n será a dezena
+  O segundo algoritimo n  sera a unidade
+  Exemplo: Numero 23
+   O 2 sera a dezena e o 3 a unidade
+    
+Processamento:
+  Usaremos a fomula a seguir como base - 9 x n = (n-1) x 10 + (10-n) 
+  Subtraimos 1 de n (dezena)
+  Multiplicamos o resultado por 10
+  Subtraimos n de 10 (unidade)
+  Somamos os dois resultados: O valor da dezena multiplicado por 10 e o valor da unidade
+  Exemplo:
+    n - 1 = 23 - 1 = 22
+    22 x 10 = 220
+    10 - 23 = -13
+    Soma: 220 - 13 = 207
+
+ Saída
+   Ou seja, 9 x 23 = 207
