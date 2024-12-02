@@ -1,9 +1,9 @@
     // Entrada
     Leia n = 5
     // Processamento
-    dezenas <- (n - 1) x 10
-    unidades <- 10 - n
-    resultado <- dezenas + unidades
+    dezenas = (n - 1) x 10
+    unidades = 10 - n
+    resultado = dezenas + unidades
     (5 - 1) x 10 = 4 x 10 = 40
     10 - 5 = 5
     // Saída
